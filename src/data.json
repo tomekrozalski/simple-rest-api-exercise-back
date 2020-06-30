@@ -1,0 +1,1088 @@
+{
+  "categories": [
+    {
+      "title": "Commons",
+      "flows": [
+        {
+          "code": "get-box-type"
+        },
+        {
+          "code": "get-booking-date"
+        },
+        {
+          "code": "get-products"
+        },
+        {
+          "code": "get-products-by-type"
+        },
+        {
+          "code": "get-product"
+        },
+        {
+          "code": "get-counters"
+        },
+        {
+          "code": "get-counter"
+        },
+        {
+          "code": "get-transactions"
+        },
+        {
+          "code": "get-transaction"
+        },
+        {
+          "code": "get-operations"
+        },
+        {
+          "code": "get-transfers"
+        },
+        {
+          "code": "get-technical-items"
+        },
+        {
+          "code": "get-technical-items-by-item-type"
+        },
+        {
+          "code": "get-technical-item"
+        },
+        {
+          "code": "get-technical-item-field-name"
+        },
+        {
+          "code": "0A0A"
+        },
+        {
+          "code": "0A1A"
+        },
+        {
+          "code": "0A1B"
+        },
+        {
+          "code": "0A1C"
+        },
+        {
+          "code": "0A4A"
+        },
+        {
+          "code": "0A4C"
+        },
+        {
+          "code": "0A5A"
+        },
+        {
+          "code": "0A6A"
+        },
+        {
+          "code": "0A7A"
+        },
+        {
+          "code": "0A7B"
+        },
+        {
+          "code": "0A8A"
+        },
+        {
+          "code": "0A8B"
+        },
+        {
+          "code": "0A9A"
+        },
+        {
+          "code": "0C6A"
+        },
+        {
+          "code": "0A2A"
+        },
+        {
+          "code": "0A2B"
+        },
+        {
+          "code": "0A2C"
+        },
+        {
+          "code": "0A2D"
+        },
+        {
+          "code": "0A2E"
+        },
+        {
+          "code": "0A2F"
+        },
+        {
+          "code": "0A2G"
+        }
+      ]
+    },
+    {
+      "title": "Customers",
+      "flows": [
+        {
+          "code": "get-customer-retail"
+        },
+        {
+          "code": "get-settings-personal"
+        },
+        {
+          "code": "0B1A",
+          "name": "Customer retail create"
+        },
+        {
+          "code": "0B2A",
+          "name": "Customer retail close"
+        },
+        {
+          "code": "0B1W",
+          "name": "Customer retail update phone number"
+        },
+        {
+          "code": "0B1X",
+          "name": "Customer retail update email"
+        },
+        {
+          "code": "0B1Y",
+          "name": "Customer retail update date of birth"
+        },
+        {
+          "code": "0B1Z",
+          "name": "Customer retail update place of birth"
+        },
+        {
+          "code": "0B1F",
+          "name": "Customer retail update address"
+        },
+        {
+          "code": "0B1G",
+          "name": "Customer retail update TAX data"
+        },
+        {
+          "code": "0B1H",
+          "name": "Customer retail update language"
+        },
+        {
+          "code": "0B1I",
+          "name": "Customer retail set touch ID"
+        },
+        {
+          "code": "0B1J",
+          "name": "Customer retail set face ID"
+        },
+        {
+          "code": "0B1K",
+          "name": "Customer retail update consent"
+        },
+        {
+          "code": "0B1L",
+          "name": "Customer retail update MPTS data"
+        },
+        {
+          "code": "0B1D",
+          "name": "Customer retail update phone number (Init OTP)"
+        },
+        {
+          "code": "0B1M",
+          "name": "Customer retail update phone number (Confirm)"
+        },
+        {
+          "code": "0B1N",
+          "name": "Customer retail update phone number (Revert)"
+        },
+        {
+          "code": "0B1C",
+          "name": "Customer retail update email (Init OTP)"
+        },
+        {
+          "code": "0B1O",
+          "name": "Customer retail update email (Confirm)"
+        },
+        {
+          "code": "0B1P",
+          "name": "Customer retail update email (Revert)"
+        },
+        {
+          "code": "0B1Q",
+          "name": "Customer retail update personal data"
+        },
+        {
+          "code": "0B1R",
+          "name": "Customer retail update personal data (Preauthorize PIN)"
+        },
+        {
+          "code": "0B1S",
+          "name": "Customer retail update personal data (Validate)"
+        },
+        {
+          "code": "0B5B",
+          "name": "Customer retail update legal language"
+        },
+        {
+          "code": "get-customer-sme"
+        },
+        {
+          "code": "0C1A",
+          "name": "Customer SME create"
+        },
+        {
+          "code": "0C3A",
+          "name": "Customer SME close"
+        },
+        {
+          "code": "0C1G",
+          "name": "Customer SME update TAX data"
+        },
+        {
+          "code": "0C1L",
+          "name": "Customer SME update MPTS data"
+        },
+        {
+          "code": "0C1R",
+          "name": "Customer SME update company data"
+        },
+        {
+          "code": "get-proxy"
+        },
+        {
+          "code": "get-proxies"
+        },
+        {
+          "code": "get-settings-personal-proxy"
+        },
+        {
+          "code": "0C2A",
+          "name": "Customer SME add proxy"
+        },
+        {
+          "code": "0C2E",
+          "name": "Customer SME remove proxy"
+        },
+        {
+          "code": "0C2B",
+          "name": "Proxy update correspondence address"
+        },
+        {
+          "code": "0C2C",
+          "name": "Proxy update email"
+        },
+        {
+          "code": "0C2D",
+          "name": "Proxy update phone number"
+        },
+        {
+          "code": "0C2F",
+          "name": "Proxy update multisignature limit"
+        },
+        {
+          "code": "0C2G",
+          "name": "Proxy set default multisignature limit (Confirm)"
+        },
+        {
+          "code": "0C2I",
+          "name": "Proxy set default multisignature limit (Init OTP)"
+        },
+        {
+          "code": "0C1D",
+          "name": "Proxy update phone number (Init OTP)"
+        },
+        {
+          "code": "0C1M",
+          "name": "Proxy update phone number (Confirm)"
+        },
+        {
+          "code": "0C1N",
+          "name": "Proxy update phone number  (Revert)"
+        },
+        {
+          "code": "0C1C",
+          "name": "Proxy update email (Init OTP)"
+        },
+        {
+          "code": "0C1O",
+          "name": "Proxy update email (Confirm)"
+        },
+        {
+          "code": "0C1P",
+          "name": "Proxy update email (Revert)"
+        },
+        {
+          "code": "get-customer-joint"
+        },
+        {
+          "code": "0D1A",
+          "name": "Customer joint create"
+        },
+        {
+          "code": "0D1B",
+          "name": "Customer joint update MPTS data"
+        },
+        {
+          "code": "get-coowner"
+        },
+        {
+          "code": "get-coowners"
+        },
+        {
+          "code": "0D2A",
+          "name": "Customer joint add coowner"
+        },
+        {
+          "code": "0D2B",
+          "name": "Customer joint remove coowner"
+        },
+        {
+          "code": "0D2C",
+          "name": "Coowner update email (Init OTP)"
+        },
+        {
+          "code": "0D2D",
+          "name": "Coowner update email (Confirm)"
+        },
+        {
+          "code": "0D2E",
+          "name": "Coowner update email (Revert)"
+        },
+        {
+          "code": "0D2F",
+          "name": "Coowner update phone number (Init OTP)"
+        },
+        {
+          "code": "0D2G",
+          "name": "Coowner update phone number (Confirm)"
+        },
+        {
+          "code": "0D2H",
+          "name": "Coowner update phone number (Revert)"
+        },
+        {
+          "code": "0D2I",
+          "name": "Coowner update correspondence address"
+        },
+        {
+          "code": "0D2M",
+          "name": "Coowner update email"
+        },
+        {
+          "code": "0D2N",
+          "name": "Coowner update phone number"
+        },
+        {
+          "code": "0D3A",
+          "name": "Customer joint close"
+        }
+      ]
+    },
+    {
+      "title": "Packages",
+      "flows": [
+        {
+          "code": "get-customer-package"
+        },
+        {
+          "code": "0A3A"
+        },
+        {
+          "code": "0A3B"
+        },
+        {
+          "code": "0A3C"
+        },
+        {
+          "code": "0A3D"
+        },
+        {
+          "code": "0A3E"
+        },
+        {
+          "code": "0A3G"
+        },
+        {
+          "code": "0A3H"
+        },
+        {
+          "code": "0A3I"
+        },
+        {
+          "code": "0A3K"
+        },
+        {
+          "code": "0A3L"
+        },
+        {
+          "code": "0A3F"
+        }
+      ]
+    },
+    {
+      "title": "Accounts",
+      "flows": [
+        {
+          "code": "get-accounts"
+        },
+        {
+          "code": "get-account"
+        },
+        {
+          "code": "get-account-balance"
+        },
+        {
+          "code": "get-account-balance"
+        },
+        {
+          "code": "get-available-funds"
+        },
+        {
+          "code": "get-available-funds-for-date"
+        },
+        {
+          "code": "get-overdraft-limit"
+        },
+        {
+          "code": "1A1A",
+          "name": "Account update"
+        },
+        {
+          "code": "1A1B",
+          "name": "Create additional account "
+        },
+        {
+          "code": "1A1C",
+          "name": "Account additional closing"
+        },
+        {
+          "code": "1A1D",
+          "name": "Closing-main-account "
+        },
+        {
+          "code": "1A1F",
+          "name": "Closing account - only balance check"
+        },
+        {
+          "code": "1A1W",
+          "name": "Set swift bic code on account"
+        },
+        {
+          "code": "1A2A",
+          "name": " Change status to blocked"
+        },
+        {
+          "code": "1A2B",
+          "name": "Account - tap off blockade"
+        },
+        {
+          "code": "1A2C",
+          "name": "Account - tap off particular blockade  (subtree for account - tap off blockade)"
+        },
+        {
+          "code": "1A2D",
+          "name": "Eof all blockade sa list"
+        },
+        {
+          "code": "1A2E",
+          "name": "Eod - reset free amount (subtree for eod-get-product-list)"
+        },
+        {
+          "code": "1A2F",
+          "name": "Update free amount and hold"
+        },
+        {
+          "code": "1A2G",
+          "name": "Account - change status to blocked - migration"
+        },
+        {
+          "code": "1A2H",
+          "name": "get blockade death"
+        },
+        {
+          "code": "1A2I",
+          "name": "Update blockade death"
+        },
+        {
+          "code": "1A3A",
+          "name": "Account charge card create "
+        },
+        {
+          "code": "1A3F",
+          "name": "Account charge card limit change"
+        },
+        {
+          "code": "1B2A",
+          "name": "Closing main account with products RETAI"
+        },
+        {
+          "code": "1C2A",
+          "name": "Closing main account with products SME"
+        },
+        {
+          "code": "1A3B",
+          "name": "EoD get charge account - T24 limit update"
+        },
+        {
+          "code": "1A3D",
+          "name": "EoD - Charge account limit reset"
+        }
+      ]
+    },
+    {
+      "title": "Cards",
+      "flows": [
+        {
+          "code": "get-cards"
+        },
+        {
+          "code": "get-card-by-rbs"
+        },
+        {
+          "code": "get-card-authorizations"
+        },
+        {
+          "code": "2A0A",
+          "name": "Create card"
+        },
+        {
+          "code": "2A0C",
+          "name": "Plastic card"
+        },
+        {
+          "code": "2A0D",
+          "name": "Create additional card"
+        },
+        {
+          "code": "2A0F",
+          "name": "Perso confirmatrion report"
+        },
+        {
+          "code": "2A5A",
+          "name": "Global limit"
+        },
+        {
+          "code": "2A5B",
+          "name": "Freeze card"
+        },
+        {
+          "code": "2A5C",
+          "name": "UnFreeze card"
+        },
+        {
+          "code": "2A5D",
+          "name": "Restrict card"
+        },
+        {
+          "code": "2A5E",
+          "name": "Contactless setup"
+        },
+        {
+          "code": "2A5F",
+          "name": "ATM"
+        },
+        {
+          "code": "2A5G",
+          "name": "Magstripe"
+        },
+        {
+          "code": "2A5H",
+          "name": "Abroad"
+        },
+        {
+          "code": "2A5I",
+          "name": "Online"
+        },
+        {
+          "code": "2A5J",
+          "name": "Geo"
+        },
+        {
+          "code": "2A5K",
+          "name": "Global Limit Reset"
+        },
+        {
+          "code": "2A5L",
+          "name": "Card PIN Set"
+        },
+        {
+          "code": "2A5M",
+          "name": "Card Delete View"
+        },
+        {
+          "code": "2A5N",
+          "name": "Card locked"
+        },
+        {
+          "code": "2A0B",
+          "name": "Update 4 digits PAN"
+        },
+        {
+          "code": "2A0E",
+          "name": "Extend expiry date"
+        },
+        {
+          "code": "2A1A",
+          "name": "Positive posting by MPTS (initiation)"
+        },
+        {
+          "code": "2A1B",
+          "name": "Limits, security and fraud checks"
+        },
+        {
+          "code": "2A1C",
+          "name": "Transaction advice"
+        },
+        {
+          "code": "2A2A",
+          "name": "Authorization and clearing"
+        },
+        {
+          "code": "2A2B",
+          "name": "Transaction clearing update (chargeback)"
+        },
+        {
+          "code": "2A2C",
+          "name": "Authorization canceling due to missing clearing"
+        },
+        {
+          "code": "2A2D",
+          "name": "Authorization canceling due to missing clearing"
+        },
+        {
+          "code": "2A2E",
+          "name": "Representment"
+        },
+        {
+          "code": "2A2F",
+          "name": "Forced authorization cancellation"
+        },
+        {
+          "code": "2A3A",
+          "name": "Increase authorization (update type increase)"
+        },
+        {
+          "code": "2A3B",
+          "name": "Limits, security and fraud checks"
+        },
+        {
+          "code": "2A3C",
+          "name": "Transaction advice"
+        },
+        {
+          "code": "2A4A",
+          "name": "Reversal authorization (update type full or partial reversal)"
+        },
+        {
+          "code": "2A6A",
+          "name": "Activation request"
+        },
+        {
+          "code": "2A6B",
+          "name": "Token confirmation notification"
+        },
+        {
+          "code": "2A7A",
+          "name": "Authentication"
+        },
+        {
+          "code": "2A7B",
+          "name": "Confirmation"
+        },
+        {
+          "code": "2A8A",
+          "name": "Save PayU customer id"
+        },
+        {
+          "code": "2A8B",
+          "name": "Add PayU token"
+        }
+      ]
+    },
+    {
+      "title": "Payments",
+      "flows": [
+        {
+          "code": "3A5A",
+          "name": "Add new recipient"
+        },
+        {
+          "code": "3A5B",
+          "name": "Change name"
+        },
+        {
+          "code": "3A5C",
+          "name": "Change email and address"
+        },
+        {
+          "code": "3A5D",
+          "name": "Change accounts"
+        },
+        {
+          "code": "3A5E",
+          "name": "Delete recipient"
+        },
+        {
+          "code": "3A5F",
+          "name": "Add new recipient with OTP"
+        },
+        {
+          "code": "3A5G",
+          "name": "Add new recipient with Braintri"
+        },
+        {
+          "code": "3A5H",
+          "name": "Change name with OTP"
+        },
+        {
+          "code": "3A5I",
+          "name": "Change name with Braintri"
+        },
+        {
+          "code": "3A5J",
+          "name": "Change email and address with OTP"
+        },
+        {
+          "code": "3A5K",
+          "name": "Change email and address with Braintri"
+        },
+        {
+          "code": "3A5L",
+          "name": "Change accounts with OTP"
+        },
+        {
+          "code": "3A5M",
+          "name": "Change accounts with Braintri"
+        },
+        {
+          "code": "3A5N",
+          "name": "Delete recipient with OTP"
+        },
+        {
+          "code": "3A5O",
+          "name": "Delete recipient with Braintri"
+        },
+        {
+          "code": "3A5P",
+          "name": "Generate OTP"
+        },
+        {
+          "code": "3A7A",
+          "name": "Send Push Notification for incoming transfer"
+        },
+        {
+          "code": "3A7B",
+          "name": "Send Push Notification for outgoing transfer"
+        },
+        {
+          "code": "3A7C",
+          "name": "Send Push Notification for rejected outgoing transfer "
+        },
+        {
+          "code": "3A8A",
+          "name": "Universal Transfer Out"
+        },
+        {
+          "code": "3A8B",
+          "name": "Universal Out Auth Start"
+        },
+        {
+          "code": "3A8C",
+          "name": "Universal Out Auth Confirm"
+        },
+        {
+          "code": "3A8G",
+          "name": "Universal Out Instant"
+        },
+        {
+          "code": "3A2B",
+          "name": "SEPA DIRECT DEBIT"
+        },
+        {
+          "code": "3A2C",
+          "name": "SEPA FX"
+        },
+        {
+          "code": "3A2D",
+          "name": "SEPA"
+        },
+        {
+          "code": "3A2E",
+          "name": "CASH DEPOSIT"
+        },
+        {
+          "code": "3A2G",
+          "name": "SWIFT"
+        },
+        {
+          "code": "3A2H",
+          "name": "SWIFT FX"
+        },
+        {
+          "code": "3A2J",
+          "name": "LOCAL"
+        },
+        {
+          "code": "3A2K",
+          "name": "LOCAL MANUAL"
+        },
+        {
+          "code": "3A3A",
+          "name": "SEPA"
+        },
+        {
+          "code": "3A3B",
+          "name": "SWIFT"
+        },
+        {
+          "code": "3A3C",
+          "name": "SWIFT FX"
+        },
+        {
+          "code": "3A3D",
+          "name": "LOCAL"
+        },
+        {
+          "code": "3A3E",
+          "name": "SEPA FX"
+        },
+        {
+          "code": "3A4A",
+          "name": "SEPA"
+        },
+        {
+          "code": "3A4B",
+          "name": "SWIFT"
+        },
+        {
+          "code": "3A4C",
+          "name": "SWIFT FX"
+        },
+        {
+          "code": "3A4D",
+          "name": "LOCAL"
+        },
+        {
+          "code": "3A4E",
+          "name": "SEPA FX"
+        },
+        {
+          "code": "3A6A",
+          "name": "SEPA"
+        },
+        {
+          "code": "3A6B",
+          "name": "SWIFT"
+        },
+        {
+          "code": "3A6C",
+          "name": "SWIFT FX"
+        },
+        {
+          "code": "3A6D",
+          "name": "LOCAL"
+        },
+        {
+          "code": "3A6E",
+          "name": "SEPA FX"
+        },
+        {
+          "code": "3A6F",
+          "name": "SEPA DIRECT DEBIT"
+        }
+      ]
+    },
+    {
+      "title": "Standing orders",
+      "flows": [
+        {
+          "code": "3A9A",
+          "name": "Create SO Def"
+        },
+        {
+          "code": "3A9B",
+          "name": "Update SO Def"
+        },
+        {
+          "code": "3A9C",
+          "name": "Create Standing Order definition active list - EoD get definitions"
+        },
+        {
+          "code": "3A9D",
+          "name": "Create Standing Order definition active list"
+        },
+        {
+          "code": "3A9G",
+          "name": "Close SO Def"
+        },
+        {
+          "code": "3A9H",
+          "name": "SO Def Create Auth Start"
+        },
+        {
+          "code": "3A9I",
+          "name": "SO Def Create Auth Confirm"
+        },
+        {
+          "code": "3A9J",
+          "name": "SO Def Update Auth Start"
+        },
+        {
+          "code": "3A9K",
+          "name": "SO Def Update Auth Confirm"
+        },
+        {
+          "code": "3A9E",
+          "name": "Excecute standing order - EoD get definitions"
+        },
+        {
+          "code": "3A9F",
+          "name": "Excecute standing order"
+        }
+      ]
+    },
+    {
+      "title": "Saving accounts",
+      "flows": [
+        {
+          "code": "6B1A",
+          "name": "Open RSA"
+        },
+        {
+          "code": "6B1B",
+          "name": "Name updating"
+        },
+        {
+          "code": "6B1C",
+          "name": "Interest Calculation"
+        },
+        {
+          "code": "6B1D",
+          "name": "Interest Capitalization"
+        },
+        {
+          "code": "6B1E",
+          "name": "RSA Closing"
+        },
+        {
+          "code": "6B1Y",
+          "name": "Change status"
+        },
+        {
+          "code": "6C1A",
+          "name": "Open"
+        },
+        {
+          "code": "6C1B",
+          "name": "Update name"
+        }
+      ]
+    },
+    {
+      "title": "Term Deposits",
+      "flows": [
+        {
+          "code": "4B1A",
+          "name": "Open"
+        },
+        {
+          "code": "4B1B",
+          "name": "MODIFICATION (auto-renewal, capitalisation)"
+        },
+        {
+          "code": "4B1C",
+          "name": "EARLY TERMINATION"
+        },
+        {
+          "code": "4B1D",
+          "name": "BALANCE UPDATE"
+        },
+        {
+          "code": "4B1E",
+          "name": "DEPOSIT TERMINATION (AT MATURITY)"
+        },
+        {
+          "code": "4B1F",
+          "name": "DEPOSIT RENEWAL (AT MATURITY)"
+        }
+      ]
+    },
+    {
+      "title": "Loans",
+      "flows": [
+        {
+          "code": "7A0A",
+          "name": "Close loan product"
+        },
+        {
+          "code": "7A1A",
+          "name": "Open overdraft"
+        },
+        {
+          "code": "7A1D",
+          "name": "Overdraft Closure (by user)"
+        },
+        {
+          "code": "7A1F",
+          "name": "Overdraft Status Change FIX"
+        },
+        {
+          "code": "7A2A",
+          "name": "Open cash loan"
+        },
+        {
+          "code": "7A2B",
+          "name": "Daily actualization"
+        },
+        {
+          "code": "7A2D",
+          "name": "Repayment"
+        }
+      ]
+    },
+    {
+      "title": "Investments",
+      "flows": [
+        {
+          "code": "5B1A"
+        },
+        {
+          "code": "5B2B"
+        },
+        {
+          "code": "5B2C"
+        },
+        {
+          "code": "5B2D"
+        },
+        {
+          "code": "5B3E"
+        },
+        {
+          "code": "5B3F"
+        },
+        {
+          "code": "5B3G"
+        },
+        {
+          "code": "5B3H"
+        },
+        {
+          "code": "5B3I"
+        },
+        {
+          "code": "5B4J"
+        },
+        {
+          "code": "5B4K"
+        },
+        {
+          "code": "5B4L"
+        },
+        {
+          "code": "5B4M"
+        },
+        {
+          "code": "5B5M"
+        },
+        {
+          "code": "5B5N"
+        },
+        {
+          "code": "5B6O"
+        }
+      ]
+    }
+  ]
+}
