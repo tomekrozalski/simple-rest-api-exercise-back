@@ -1,4 +1,5 @@
 import { writeFileSync } from 'fs';
+import { resolve } from 'path';
 import { BadRequestException, Injectable } from '@nestjs/common';
 import { dataType } from './data.type';
 import * as data from './data.json';
@@ -10,7 +11,8 @@ export class AppService {
   }
 
   writeDataFile = (data: dataType) => {
-    writeFileSync('src/data.json', JSON.stringify(data, null, '  '));
+    const direction = resolve(__dirname, 'data.json');
+    writeFileSync(direction, JSON.stringify(data, null, '  '));
   };
 
   addFlow({ category, code, name }): dataType {
