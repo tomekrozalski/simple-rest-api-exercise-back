@@ -1,21 +1,29 @@
-import { writeFileSync } from 'fs';
-import { resolve } from 'path';
-import { BadRequestException, Injectable } from '@nestjs/common';
-import { dataType } from './data.type';
-import * as data from './data.json';
+import {
+  BadRequestException,
+  ForbiddenException,
+  Injectable,
+} from '@nestjs/common';
+
+import { dataType } from 'utils/types/data.type';
+import {
+  getData as getDataFromAWS,
+  saveData as saveDataToAWS,
+} from 'utils/helpers';
 
 @Injectable()
 export class AppService {
-  getData(): dataType {
-    return data;
+  async getData(): Promise<dataType> {
+    try {
+      const data: dataType = await getDataFromAWS();
+      return data;
+    } catch (e) {
+      throw new ForbiddenException(e);
+    }
   }
 
-  writeDataFile = (data: dataType) => {
-    const direction = resolve(__dirname, 'data.json');
-    writeFileSync(direction, JSON.stringify(data, null, '  '));
-  };
+  async addFlow({ category, code, name }): Promise<dataType> {
+    const data = await this.getData();
 
-  addFlow({ category, code, name }): dataType {
     const isCategoryInDB = data.categories.find(
       ({ title }) => title.toLowerCase() === category.toLowerCase(),
     );
@@ -41,8 +49,8 @@ export class AppService {
         ),
       };
 
-      this.writeDataFile(updatedData);
-      return updatedData;
+      await saveDataToAWS(updatedData);
+      return this.getData();
     }
 
     throw new BadRequestException(
@@ -50,7 +58,9 @@ export class AppService {
     );
   }
 
-  deleteFlow({ category, code }): dataType {
+  async deleteFlow({ category, code }): Promise<dataType> {
+    const data = await this.getData();
+
     const isFlowInCategory = data.categories
       .find(({ title }) => title.toLowerCase() === category.toLowerCase())
       ?.flows.find(flow => flow.code === code);
@@ -70,8 +80,8 @@ export class AppService {
         ),
       };
 
-      this.writeDataFile(updatedData);
-      return updatedData;
+      await saveDataToAWS(updatedData);
+      return this.getData();
     }
 
     throw new BadRequestException(

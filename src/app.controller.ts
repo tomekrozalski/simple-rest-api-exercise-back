@@ -1,30 +1,35 @@
 import { Body, Controller, Delete, Get, Param, Post } from '@nestjs/common';
 import { AppService } from './app.service';
-import { dataType } from './data.type';
+import { dataType } from 'utils/types/data.type';
 
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  getData(): dataType {
-    return this.appService.getData();
+  async getData(): Promise<dataType> {
+    const data = await this.appService.getData();
+    return data;
   }
 
   @Post()
-  addFlow(
+  async addFlow(
     @Body('category') category: string,
     @Body('code') code: string,
     @Body('name') name?: string,
-  ): dataType {
-    return this.appService.addFlow({ category, code, name });
+  ): Promise<dataType> {
+    const data = await this.appService.addFlow({ category, code, name });
+
+    return data;
   }
 
   @Delete(':category/:code')
-  deleteFlow(
+  async deleteFlow(
     @Param('category') category: string,
     @Param('code') code: string,
-  ): dataType {
-    return this.appService.deleteFlow({ category, code });
+  ): Promise<dataType> {
+    const data = await this.appService.deleteFlow({ category, code });
+
+    return data;
   }
 }

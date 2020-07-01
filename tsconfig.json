@@ -10,7 +10,10 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true,
-    "resolveJsonModule": true
+    "rootDir": ".",
+    "paths": {
+      "utils/*": ["src/utils/*"]
+    }
   },
   "exclude": ["node_modules", "dist"]
 }
